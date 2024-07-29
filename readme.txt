@@ -9,5 +9,5 @@
 
 - git remote set-url origin https://<token>@github.com/<user_name>/<repository>: adding working repository
 -	git remote set-url origin https://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@github.com/dogecoinfoundation2021/app-test
-
 - git remote -v: show all connected remotes
+- git push -u origin main
