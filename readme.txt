@@ -2,4 +2,5 @@
 - git add <.>: adding all the progress
 - git commit <-m> <'added changes'>: commit changes to main branch and add message
 - git log: see changes
-- git checkout <4fd3c8f99a03c46fe7b25a2e68817647ef970c49>: 
+- git checkout <4fd3c8f99a03c46fe7b25a2e68817647ef970c49>: going back to save state and display in new branch, to go back to master branch simply replace <> with master. 
+- git branch: see what branch you are currently in
