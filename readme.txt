@@ -1,0 +1,4 @@
+- git init: initialize git in the repository
+- git add .: adding all the progress
+- git commit -m 'added changes': commit changes to main branch and add message
+- git log: see changes
