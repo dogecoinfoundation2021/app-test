@@ -1,0 +1,56 @@
+#:import utils kivy.utils
+
+<MainLayout>
+	canvas.before:
+		Color:
+			rgb: utils.get_color_from_hex('000000')
+
+		Rectangle:
+			pos: self.pos
+			size: self.size
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+		# padding: root.width * 0.05
+		# spacing: root.height * 0.025
+
+		BoxLayout:
+			orientation: "vertical"
+			padding: root.width * 0.05
+			spacing: root.height * 0.025
+
+			Button:
+				size_hint: 1, None
+				height: root.height * 0.075
+
+				text: "Hello World"
+
+			Button:
+				size_hint: 1, None
+				height: root.height * 0.075
+				
+				text: "Hello World"
+
+			Button:
+				size_hint: 1, None
+				height: root.height * 0.075
+				
+				text: "Hello World"
+
+		BoxLayout:
+			Button:
+				text: "Test"
+
+		BoxLayout:
+			orientation: "horizontal"
+
+			Button:
+				size_hint:1, None
+				height: 100
+				text: "Hello World"
+
+			Button:
+				size_hint:1, None
+				height: 100
+				text: "Hello World"
